@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder Lista Roja</title>
+  <desc id="desc">Imagen temporal para la seccion Quienes Somos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffdddd" />
+      <stop offset="100%" stop-color="#ffd1d1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect x="70" y="70" width="1060" height="660" rx="28" fill="none" stroke="#bf1b1b" stroke-width="8" stroke-dasharray="20 12" />
+  <circle cx="600" cy="330" r="86" fill="#bf1b1b" opacity="0.2" />
+  <path d="M600 260a70 70 0 1 1 0 140a70 70 0 0 1 0-140Zm-140 240c44-36 96-54 140-54c44 0 96 18 140 54v52H460v-52Z" fill="#8a1010" opacity="0.35" />
+  <text x="600" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" fill="#5f0303" font-weight="700">AQUI IRA LA IMAGEN DEL EQUIPO</text>
+</svg>
