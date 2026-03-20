@@ -7,3 +7,14 @@
     radial-gradient(circle at 90% 20%, rgba(138, 16, 16, 0.22), transparent 40%),
     linear-gradient(175deg, #fffdfb 0%, #ffe9e9 52%, #fff4ef 100%);
 }
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
