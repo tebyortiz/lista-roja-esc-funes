@@ -18,7 +18,6 @@ import "./App.css";
 const teamMembers = [
   { role: "Presidenta", name: "Zoe Montiel" },
   { role: "Vicepresidenta", name: "Juana Ortiz" },
-  { role: "Secretaria", name: "Josefina Ramírez" },
   { role: "Tesorera", name: "Pilar Luffi" },
   { role: "Delegado de Deporte", name: "Alexis Garay" },
   { role: "Secretaría de Salud Mental", name: "Micaela Pavez" },
@@ -40,11 +39,6 @@ const roleDetails: Record<
     description:
       "Ayuda al presidente/a y lo reemplaza cuando no está. También colabora en la organización general.",
   },
-  Secretaria: {
-    title: "SECRETARIA: JOSEFINA RAMIREZ",
-    description:
-      "Se encarga de lo organizativo: tomar notas en reuniones, organizar información, coordinar tareas y mantener todo en orden.",
-  },
   Tesorera: {
     title: "TESORERA: PILAR LUFFI",
     helper: "PIA RAMIREZ",
@@ -59,7 +53,7 @@ const roleDetails: Record<
   },
   "Secretaría de Salud Mental": {
     title: "SECRETARIA DE SALUD MENTAL: MICAELA PAVEZ",
-    helper: "LUCAS ZOTELO",
+    helper: "JOSEFINA RAMIREZ",
     description:
       "Busca cuidar el bienestar de los estudiantes: propone espacios para hablar, campañas sobre estrés, bullying, ansiedad, y acompaña a quienes lo necesiten.",
   },
